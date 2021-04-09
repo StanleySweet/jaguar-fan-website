@@ -7,22 +7,6 @@
     <link href="style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="menu.js" type="text/javascript"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script type="text/javascript">showDiv("home");
-        function sendEmail() {
-            Email.send({
-            Host: "smtp.gmail.com",
-            Username : "stanislas.dolcini@gmail.com",
-            Password : "<email password>",
-            To : '<recipient’s email address>',
-            From : "<sender’s email address>",
-            Subject : "<email subject>",
-            Body : "<email body>",
-            }).then(
-                message => alert("mail sent successfully")
-            );
-        }
-    </script>
     <center style="margin:auto;">
         <img style="margin:auto;height: 100px;" src="Images/0127_h_jaguar-logo_13.png">
     </center>
@@ -35,12 +19,24 @@
         <button class="header-button">Tech Spec</button>
         <button class="header-button"><a href=films.html>Films & Celebrities</a></button>
     </h2>
-    <h2>
-        <div class="home" style="margin:auto;">
-            <img src="Images/2018_Jaguar-Type-E-Zero_01.jpg" style="height: 650px;">
-            <h2>Jaguar Type E<h2>
+    <div>
+        <div class="home">
+            <table style="margin: auto;">
+                <tr>
+                    <td>Jaguar I-Peace Course</td>
+                    <td> <img height="200" src="Images/jaguar-type-i.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Jaguar Type-F coup&eacute; cabriolet</td>
+                    <td><img height="200" src="Images/type-f.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Jaguar XE Berline</td>
+                    <td><img height="200" src="Images/rouge.jpg"></td>
+                </tr>
+            </table>
         </div>
-    </h2>
+    </div>
 </body>
 
 </html>
