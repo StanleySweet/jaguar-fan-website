@@ -4,7 +4,10 @@ body{
 h2 {
     text-align: center;
 }
-
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
 .header-button {
     background-color: black;
     color: white;
